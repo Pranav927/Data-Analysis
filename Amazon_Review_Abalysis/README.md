@@ -1,1 +1,8 @@
-
+- **Objective**: This project aims to analyze sentiment in Amazon reviews through Natural Language Processing (NLP) techniques and machine learning models.
+- **Tools Used**: Python libraries such as pandas, numpy, matplotlib, seaborn, and nltk are utilized for data manipulation, visualization, and NLP tasks.
+- **Data**: The dataset, sourced from Amazon reviews and stored in a CSV format, contains various attributes including review text and ratings (scores).
+- **Exploratory Data Analysis (EDA)**: Initial exploration involves visualizing the distribution of review scores using techniques like bar plots. Preprocessing steps include tokenization, part-of-speech tagging, and entity recognition using nltk.
+- **Sentiment Analysis**: VADER is initially used for sentiment analysis, followed by the RoBERTa model for more nuanced analysis.
+- **Comparison of Models**: The project compares sentiment scores obtained from both VADER and RoBERTa models, analyzing their performance using pair plots.
+- **Results**: Insights into sentiment distribution across different review ratings are provided, aiding businesses in understanding customer feedback for Amazon products.
+- **Hugging Face Transformers Pipeline**: The project demonstrates the ease of using Hugging Face's pipelines for sentiment analysis, further enhancing accessibility and implementation.
